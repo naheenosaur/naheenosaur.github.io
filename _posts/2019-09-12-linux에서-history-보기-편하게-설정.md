@@ -1,0 +1,20 @@
+---
+#layout: post
+title:  "linux에서 history 보기 편하게 설정"
+date:   2019-09-12 21:00:00 +0900
+categories: linux
+tags: [centos]
+---
+
+# history 설정
+
+linux 서버를 새로 세팅하는 경우, history가 보기 어려워 실행 시간을 추가 해 준다.  
+이미 지난 히스토리의 경우, 날짜를 판단할 수 없어 history명령어 실행 시간으로 나오기 때문에  
+가능하면 서버 세팅과 동시에 해 주는 것이 좋다.
+
+```
+    # /etc/profile
+    HISTSIZE=10000  # 변경
+    HISTTIMEFORMAT='[%y-%m-%d %H:%M:%S] : '
+    export HISTTIMEFORMAT
+```
