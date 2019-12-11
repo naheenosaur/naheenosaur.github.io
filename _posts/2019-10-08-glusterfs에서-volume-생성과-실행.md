@@ -5,7 +5,7 @@ date:   2019-10-08 21:00:00 +0900
 categories: etc
 tags: [glusterfs]
 ---
-# glusterfs에서 volume 생성과 실행
+## volume 생성과 실행
 
 1.  볼륨 생성
     -   `gluster volume create dir replica 2 transport tcp 서버1:/tmp/brick-dir 서버2:/tmp/brick-dir`

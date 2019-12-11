@@ -6,7 +6,7 @@ categories: linux
 tags: [centos]
 ---
 
-# centos에서 apache 삭제
+## apache 삭제
 
 apache가 설치되어 있을 때 nginx 설치 하려면 apache를 삭제 해 주어야 한다.  
 `service apache2 stop`  

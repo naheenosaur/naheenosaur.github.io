@@ -5,30 +5,28 @@ date:   2019-11-27 21:00:00 +0900
 categories: database 
 tags: [mysql, mssql]
 ---
-# 텍스트검색
+## 텍스트검색
 
 -   MySql
-    
-    ```
-          # 프로시저/함수 에서 텍스트검색
+    ```sql
+          -- 프로시저/함수 에서 텍스트검색
           SELECT * 
           FROM information_schema.routines 
           WHERE routine_definition LIKE '%키워드%' AND 
-                routine_schema = 'DB명'
+                routine_schema = 'DB명';
     ```
     
 -   MSSQL
-    
-    ```
-          # 프로시저에서 텍스트검색
+    ```sql
+          -- 프로시저에서 텍스트검색
           SELECT * 
           FROM syscomments 
-          WHERE text like '%키워드%'
+          WHERE text like '%키워드%';
     ```
     
-    ```
-          # 테이블, 플로시저 등 생성날짜, 수정날짜 확인
+    ```sql
+          -- 테이블, 프로시저 등 생성날짜, 수정날짜 확인
           SELECT * 
           FROM sys.objects 
-          ORDER BY modify_date DESC` 
+          ORDER BY modify_date DESC; 
     ```
