@@ -6,8 +6,8 @@ header:
   - title: GitHub
     url: https://github.com/naheenosaur
 
-blog:
-    - title: develop
-      children:
-          - title: java
-            url : /heestory/java
+#blog:
+#    - title:
+#      children:
+#          - title:
+#            url : /
