@@ -1,13 +1,36 @@
 header:
-  - title: Archive
-    url: /archive.html
-  - title: About
-    url: /about.html
-  - title: GitHub
-    url: https://github.com/naheenosaur
+  - title: about
+    url: /naheenosaur
+  - title: post
+    url: /post
+  - title: review
+    url: /review/index
+  - title: G11N
+    url: /g11n/index
 
-#blog:
-#    - title:
-#      children:
-#          - title:
-#            url : /
+#side bar
+g11n:
+  - title: Word and Phrase
+    children:
+      - title: phrase
+        url: /g11n/phrase
+      - title: word
+        url: /g11n/word
+      - title: slang
+        url: /g11n/slang
+
+  - title: Movie
+    children:
+      - title: harry potter and the sorcerer's stone
+        url: /g11n/movies/HarryPotter/1
+      - title: harry potter and the chamber of secrets
+        url: /g11n/movies/HarryPotter/2
+      - title: harry potter and the prisoner of azkaban
+        url: /g11n/movies/HarryPotter/3
+
+#side bar
+review:
+  - title: Book
+    children:
+    - title : Effective Java 3/E
+      url: /review/book/effective-java-3

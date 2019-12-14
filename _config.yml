@@ -68,30 +68,13 @@ jekyll-archives:
     tag: /tag/:name/
     category: /category/:name/
 
-## => Paths
-#paths:
-#  root    : # title link url, "/" (default)
-#  home    : # home layout url, "/" (default)
-#  archive : # "/archive.html" (default)
-#  rss     : # "/feed.xml" (default)
-
 exclude:
-  - CHANGELOG.md
-  - HOW_TO_RELEASE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README-*.md
   - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
 
 defaults:
   - scope:
@@ -103,9 +86,39 @@ defaults:
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
+  - scope:  ## g11n
+      path: "_g11n"
+    values:
+      layout: document
+      nav_key: g11n
+      sidebar:
+        nav: g11n
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
+  - scope:  ## review
+      path: "_review"
+    values:
+      layout: document
+      nav_key: review
+      sidebar:
+        nav: review
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
+
+collections:
+  g11n:
+    output: true
+  review:
+    output: true
 
 ## => Plugins
 plugins:
