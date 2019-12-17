@@ -6,13 +6,14 @@ default:
     root: /
     home: /
     archive:  /post.html
+#    heestory: /heestory.html
     rss:  /feed.xml
   mathjax: false
   mathjax_autoNumber: false
   mermaid: false
   chart: false
   toc:
-    selectors: 'h1,h2,h3'
+    selectors: 'h2,h3'
   sources: bootcdn
 
   page:

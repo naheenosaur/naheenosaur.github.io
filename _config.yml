@@ -13,7 +13,7 @@ author:
 
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: "h1,h2"
 
 ## => Paginate
 paginate: 8
@@ -57,16 +57,23 @@ title   : divide and conquer
 markdown    : kramdown
 highlighter : rouge
 permalink   : /:title
+#permalink   : /:categories/:title #md에 명시하면 무시
 
 jekyll-archives:
-  enabled: all
-  layout: archive
-  permalinks:
-    year: /:year/
-    month: /:year/:month/
-    day: /:year/:month/:day/
-    tag: /tag/:name/
-    category: /category/:name/
+    enabled:
+        - tags
+    layouts:
+      tag: archive
+    permalinks:
+      tag: /tags/:name/
+#    enabled: all
+#    layout: archive
+#    permalinks:
+#      year: /:year/
+#      month: /:year/:month/
+#      day: /:year/:month/:day/
+#      tag: /tag/:name/
+#      category: /category/:name/
 
 exclude:
   - Gemfile
@@ -77,9 +84,9 @@ exclude:
   - package.json
 
 defaults:
-  - scope:
+  - scope: ## post
       path: ""
-      type: posts
+      type: posts #경로?
     values:
       layout: article
       sharing: true
@@ -113,12 +120,27 @@ defaults:
         toc: true
       show_edit_on_github: false
       show_date: false
+  - scope:  ## heestory
+      path: "_heestory"
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_subscribe: true
+      pageview: true
 
 collections:
   g11n:
     output: true
   review:
     output: true
+  heestory:
+    output: true
+    permalink: /:collection/:categories/:title
 
 ## => Plugins
 plugins:

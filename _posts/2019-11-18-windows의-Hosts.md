@@ -2,7 +2,6 @@
 #layout: post
 title:  "windows에서 Hosts파일 실행"
 date:   2019-11-18 21:00:00 +0900
-categories: windows 
 tags: [windows]
 ---
 ## HOST 파일 편리하게 사용하기

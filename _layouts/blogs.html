@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blogs
+---
+
+<div class="layout--archive js-all">
+  {%- include categories.html -%}
+  <div class="js-result layout--archive__result d-none">
+    {%- include article-list.html articles=site.heestory type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
+</div>
+
+<script>
+  {%- include scripts/archieve.js -%}
+</script>
+
+{{ content }}

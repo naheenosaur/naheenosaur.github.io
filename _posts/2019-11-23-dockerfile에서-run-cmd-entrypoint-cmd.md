@@ -2,7 +2,6 @@
 #layout: post
 title:  "dockerfile에서 사용하는 run, cmd, entrypoint, cmd의 차이"
 date:   2019-11-23 21:00:00 +0900
-categories: docker 
 tags: [docker]
 ---
 ## run / cmd / entrypoint / 커맨드 라인

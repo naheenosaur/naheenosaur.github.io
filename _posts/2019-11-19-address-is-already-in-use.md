@@ -2,7 +2,6 @@
 #layout: post
 title:  "intellij 실행 시 address is already in use"
 date:   2019-11-19 21:00:00 +0900
-categories: windows 
 tags: [windows]
 ---
 ## 백그라운드에서 실행되는 서비스 종료 

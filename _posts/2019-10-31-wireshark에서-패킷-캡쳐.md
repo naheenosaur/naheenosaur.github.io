@@ -2,7 +2,6 @@
 #layout: post
 title:  "wireshark 에서 패킷 캡쳐 하는 방법"
 date:   2019-10-31 22:00:00 +0900
-categories: tool
 tags: [windows, wireshark]
 ---
 ## 패킷캡쳐

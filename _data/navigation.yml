@@ -1,17 +1,21 @@
+# home 화면 : 최신 들
+# 상단 메뉴 바
 header:
   - title: about
     url: /naheenosaur
-  - title: post
-    url: /post
+  - title: post # tag 검색 화면 + 전체 글
+    url: /post #post.html
   - title: review
     url: /review/index
   - title: G11N
     url: /g11n/index
+  - title: heestory
+    url: /heestory.html #메인의 heestory, 메인에 있는거가 아니면 이상하게 나옴
 
 #side bar
 g11n:
   - title: Word and Phrase
-    children:
+    children: # 등록 시 동일 문서에 추가
       - title: phrase
         url: /g11n/phrase
       - title: word
@@ -19,7 +23,7 @@ g11n:
       - title: slang
         url: /g11n/slang
 
-  - title: Movie
+  - title: Movie # 등록 시 children 추가
     children:
       - title: harry potter and the sorcerer's stone
         url: /g11n/movies/HarryPotter/1
@@ -30,7 +34,11 @@ g11n:
 
 #side bar
 review:
-  - title: Book
+  - title: Book # 등록 시 children 추가
     children:
-    - title : Effective Java 3/E
-      url: /review/book/effective-java-3
+      - title : Effective Java 3/E
+        url: /review/book/effective-java-3
+#  - title: Seminar
+#    children:
+#    - title : 세미나제목
+#      url: /review/seminar/amazon..

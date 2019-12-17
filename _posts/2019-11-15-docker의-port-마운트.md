@@ -2,7 +2,6 @@
 #layout: post
 title:  "docker의 port 마운트"
 date:   2019-11-15 21:00:00 +0900
-categories: docker 
 tags: [docker]
 ---
 ## docker의 port 마운트
