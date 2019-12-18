@@ -37,12 +37,13 @@ search:
 #    custom_search_engine_id: # Google Custom Search Engine ID
 
 ## => Analytics
-#analytics:
-#  provider: false # false (default), "google", "custom"
+##############################
+analytics:
+  provider: google # false (default), "google", "custom"
   ## Google Analytics
-  # google:
-          #    tracking_id : # Google Analytics id for the site
-          #    anonymize_ip: false # Anonymize IP tracking for Analytics
+  google:
+    tracking_id : UA-154896535-1
+    anonymize_ip: true
 
 ## => Site Settings
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
