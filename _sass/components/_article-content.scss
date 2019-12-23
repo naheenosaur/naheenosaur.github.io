@@ -26,9 +26,9 @@
         font-size: map-get($base, font-size-sm);
       }
     }
-    @include hover() {
+    @include active() {
       & > .anchor {
-        cursor: pointer;
+        cursor: default;
         visibility: visible;
         opacity: 1;
       }
