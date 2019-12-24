@@ -9,6 +9,8 @@ header:
     url: /review/index
   - title: G11N
     url: /g11n/index
+  - title: algorithm
+    url: /algorithm/index
   - title: heestory
     url: /heestory.html #메인의 heestory, 메인에 있는거가 아니면 이상하게 나옴
 
@@ -42,3 +44,7 @@ review:
 #    children:
 #    - title : 세미나제목
 #      url: /review/seminar/amazon..
+
+#algorithm
+algorithm:
+  - title: leet code

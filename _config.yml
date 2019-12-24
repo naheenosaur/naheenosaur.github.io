@@ -87,7 +87,7 @@ exclude:
 defaults:
   - scope: ## post
       path: ""
-      type: posts #경로?
+      type: posts
     values:
       layout: article
       sharing: true
@@ -121,6 +121,18 @@ defaults:
         toc: true
       show_edit_on_github: false
       show_date: false
+  - scope:  ## algorithm
+      path: "_algorithm"
+    values:
+      layout: document
+      nav_key: algorithm
+      sidebar:
+        nav: algorithm
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: false
   - scope:  ## heestory
       path: "_heestory"
       type: posts
@@ -138,6 +150,8 @@ collections:
   g11n:
     output: true
   review:
+    output: true
+  algorithm:
     output: true
   heestory:
     output: true

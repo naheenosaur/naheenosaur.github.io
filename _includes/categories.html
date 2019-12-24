@@ -25,7 +25,6 @@
             </button>
         </li>
     {%- for _tag in _tags -%}
-        <h1>{{_tag[0]}}</h1>
         {%- assign _tag_cur_size = _tag.size -%}
         {%- assign _tag_min_1 = _tag_min_size -%}
         {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
@@ -46,7 +45,7 @@
         {%- else -%}
             {%- assign _c_index = 4 -%}
         {%- endif -%}
-        {% assign _tag_name = _tag.name | remove : '["' | remove : '"]' | strip %}
+        {% assign _tag_name = _tag.name | remove : '[' | remove : '"' | remove : ']' | strip %}
         <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag_name | url_encode }}">
             <span>{{ _tag_name }}</span><div class="tag-button__count">{{ _tag.size }}</div>
         </button>
