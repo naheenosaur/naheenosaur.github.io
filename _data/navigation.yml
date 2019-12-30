@@ -38,8 +38,11 @@ g11n:
 review:
   - title: Book # 등록 시 children 추가
     children:
+      - title: 테스트 주도 개발
+        url: /review/book/test-driven-development
       - title : Effective Java 3/E
         url: /review/book/effective-java-3
+
 #  - title: Seminar
 #    children:
 #    - title : 세미나제목
