@@ -146,7 +146,12 @@ layout: base
                   {%- if _full_width == false -%}
                     <div class ="main">
                   {%- endif -%}
-                    {%- include article-info.html article=page semantic=false -%}
+                      {%- if page.layout == "heestory" -%}
+                      {%- include heestory-info.html article=page semantic=false -%}
+                      {%- else -%}
+                      {%- include article-info.html article=page semantic=false -%}
+                      {%- endif -%}
+
                     {%- include article-header.html article=page semantic=false -%}
                     {%- if page.excerpt -%}
                       <p class="overlay__excerpt">{{ page.excerpt | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
@@ -203,10 +208,19 @@ layout: base
 
                 {%- if _article_header_type == 'overlay' or page.article_header == false -%}
                   {%- include article-header.html article=page html=false -%}
-                  {%- include article-info.html article=page html=false -%}
+                    {%- if page.layout == "heestory" -%}
+                    {%- include heestory-info.html article=page html=false -%}
+                    {%- else -%}
+                    {%- include article-info.html article=page html=false -%}
+                    {%- endif -%}
+
                 {%- else -%}
                   {%- include article-header.html article=page -%}
-                  {%- include article-info.html article=page -%}
+                    {%- if page.layout == "heestory" -%}
+                    {%- include heestory-info.html article=page  -%}
+                    {%- else -%}
+                    {%- include article-info.html article=page -%}
+                    {%- endif -%}
                 {%- endif -%}
 
                     <div class="js-article-content">{{ content }}</div>
