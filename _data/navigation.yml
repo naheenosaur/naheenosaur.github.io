@@ -40,6 +40,8 @@ review:
     children:
       - title: 테스트 주도 개발
         url: /review/book/test-driven-development
+      - title: DevOps Troubleshooting
+        url: /review/book/dev-ops-troubleshooting
       - title : Effective Java 3/E
         url: /review/book/effective-java-3
 
