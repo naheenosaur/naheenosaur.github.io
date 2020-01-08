@@ -7,8 +7,8 @@ tags: [mysql]
 
 ## recursive 를 사용하여 sequential data 생성
 
-mysql에서 연속적인 데이터를 생성하는 방법이 있을 것 같아 검색을 해보니  
-모두 임시 테이블을 만들어서 가지고 오는 방법으로 안내했다.
+mysql에서 연속적인 데이터를 생성하는 방법이 있을 것 같아 검색을 해보니   
+모두 임시 테이블을 만들어서 가지고 오는 방법으로 안내했다.  
 [recursive](https://naheenosaur.github.io/mysql%EC%97%90%EC%84%9C-%EA%B3%84%EC%B8%B5%ED%98%95-%EA%B5%AC%EC%A1%B0-%EC%9E%AC%EA%B7%80%EC%8B%9D-%EC%B6%9C%EB%A0%A5])를 사용하는 방법으로 생성할 수 있을 것 같아서 생성해 봤다.
  
 ```sql
