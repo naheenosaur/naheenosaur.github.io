@@ -1,7 +1,7 @@
 ---
 #layout: post
-title:  "github action을 이용한 토이프로젝트"
-date:   2020-01-22 21:00:00 +0900
+title:  "[토이프로젝트] github action을 이용한 잔디지키미"
+date:   2020-01-25 21:00:00 +0900
 tags: [commit-every-single-day]
 ---
 
