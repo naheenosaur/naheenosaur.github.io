@@ -47,7 +47,7 @@ review:
   - title : Study
     children:
       - title: Tdd, Refactoring, Clean Code
-        url: /review/study/Tdd-Refactoring-CleanCode
+        url: /review/study/TDD-Refactoring-CleanCode
       - title: Domain Driven Design 세레나데
         url: /review/study/DDD-세레나데
 
