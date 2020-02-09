@@ -9,7 +9,7 @@ tags: [commit-every-single-day]
 [deploy된 페이지 보기](https://naheenosaur.github.io/commit-every-single-day)
 
 ## commit-every-single-day 시리즈
-1. [주제정하기](https://naheenosaur.github.io/토이프로젝트-주제정하기)  
+1. [주제정하기](https://naheenosaur.github.io/토이프로젝트-주제정하기-1)  
 2. [github action 알아보기]()  
 3. [node.js에서 github action 라이브러리 사용하기]()  
 4. [slack webhook 사용하기](https://naheenosaur.github.io/slack-webhook)  
