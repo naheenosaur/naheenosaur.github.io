@@ -5,7 +5,7 @@ date:   2020-02-15 21:00:00 +0900
 tags: [java]
 ---
 
-Java(혹은 객체지향 프로그래밍)에서는 주로 static method의 사용을 지양하고 있다.  
+Java(혹은 객체지향 프로그래밍)에서는 주로 static method의 사용을 지양하고 있다.
 하지만 프로그래밍을 하다보면 NumberUtil과 같은 식의 Static method들의 모임인 Util성 클래스를 생성하는 것이 좋을 때가 있다.
 
 왜 Java에서는 static method를 지양는지, 그렇다면 언제 이러한 Util성 클래스를 생성하는 것이 좋은지 정리하고 싶어서 구글링을 좀 해 봤다.
