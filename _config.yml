@@ -23,7 +23,9 @@ paginate_path: /page:num # don't change this unless for special need
 comments:
   provider: disqus
   disqus:
-     shortname: naheenosaur
+    enable: true
+    shortname: naheenosaur
+    count: true
 
 ## => Pageview
 #pageview:
