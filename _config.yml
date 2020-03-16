@@ -20,10 +20,10 @@ paginate: 8
 paginate_path: /page:num # don't change this unless for special need
 
 ## => Comments
-#comments:
-#  provider: disqus
-#  disqus:
-#   shortname: # the Disqus shortname for the site
+comments:
+  provider: disqus
+  disqus:
+     shortname: naheenosaur
 
 ## => Pageview
 #pageview:
