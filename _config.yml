@@ -21,11 +21,9 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Comments
 comments:
-  provider: disqus
+  provider: "disqus"
   disqus:
-    enable: true
     shortname: naheenosaur
-    count: true
 
 ## => Pageview
 #pageview:
@@ -100,6 +98,9 @@ defaults:
       show_edit_on_github: false
       show_subscribe: true
       pageview: true
+      comments: true
+      read_time: true
+      author_profile: true
   - scope:  ## g11n
       path: "_g11n"
     values:
