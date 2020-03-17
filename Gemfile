@@ -7,7 +7,6 @@ end
 group :jekyll_plugins do
   gem "jekyll-paginate"
 end
-
 gem 'jekyll-sitemap'
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"

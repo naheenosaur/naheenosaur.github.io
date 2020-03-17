@@ -30,7 +30,7 @@ jobs:
           repository: ${{ steps.variables.outputs.repository }}
 ``` 
 이런식으로 변수를 output 데이터로 갖는 'set variables'라는 step을 생성해 주고  
-이 데이터를 input데이터(with)로 사용할 수 있도록 `${{steps.'id명'.outputs.'이름'}}` 로 데이터를 불러온다.
+이 데이터를 input데이터(with)로 사용할 수 있도록 `${{ steps.'id명'.outputs.'이름' }}` 로 데이터를 불러온다.
 
 [참고하기](https://github.community/t5/GitHub-Actions/How-to-pass-environment-variable-to-an-input/td-p/32003)
 

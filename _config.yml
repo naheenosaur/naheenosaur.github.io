@@ -60,21 +60,6 @@ highlighter : rouge
 permalink   : /:title
 #permalink   : /:categories/:title #md에 명시하면 무시
 
-jekyll-archives:
-    enabled:
-        - tags
-    layouts:
-      tag: archive
-    permalinks:
-      tag: /tags/:name/
-#    enabled: all
-#    layout: archive
-#    permalinks:
-#      year: /:year/
-#      month: /:year/:month/
-#      day: /:year/:month/:day/
-#      tag: /tag/:name/
-#      category: /category/:name/
 link-tags: true
 
 exclude:
@@ -99,20 +84,6 @@ defaults:
       show_subscribe: true
       pageview: true
       comments: true
-      read_time: true
-      author_profile: true
-  - scope:  ## g11n
-      path: "_g11n"
-    values:
-      layout: document
-      nav_key: g11n
-      sidebar:
-        nav: g11n
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_date: false
   - scope:  ## review
       path: "_review"
     values:
@@ -137,29 +108,12 @@ defaults:
         toc: true
       show_edit_on_github: false
       show_date: false
-  - scope:  ## heestory
-      path: "_heestory"
-      type: posts
-    values:
-      layout: article
-      sharing: true
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_subscribe: true
-      pageview: true
 
 collections:
-  g11n:
-    output: true
   review:
     output: true
   algorithm:
     output: true
-  heestory:
-    output: true
-    permalink: /:collection/:categories/:title
 
 ## => Plugins
 plugins:

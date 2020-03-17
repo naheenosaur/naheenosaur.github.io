@@ -1,38 +1,21 @@
 # home 화면 : 최신 들
 # 상단 메뉴 바
 header:
+  # naheenosaur
   - title: about
     url: /naheenosaur
   - title: post # tag 검색 화면 + 전체 글
     url: /post #post.html
   - title: review
     url: /review/index
-  - title: G11N
-    url: /g11n/index
   - title: algorithm
     url: /algorithm/index
+  # g11n
+  - title: G11N
+    url: /g11n
+  # heestory
   - title: heestory
-    url: /heestory.html #메인의 heestory, 메인에 있는거가 아니면 이상하게 나옴
-
-#side bar
-g11n:
-  - title: Word and Phrase
-    children: # 등록 시 동일 문서에 추가
-      - title: phrase
-        url: /g11n/phrase
-      - title: word
-        url: /g11n/word
-      - title: slang
-        url: /g11n/slang
-
-  - title: Movie # 등록 시 children 추가
-    children:
-      - title: harry potter and the sorcerer's stone
-        url: /g11n/movies/HarryPotter/1
-      - title: harry potter and the chamber of secrets
-        url: /g11n/movies/HarryPotter/2
-      - title: harry potter and the prisoner of azkaban
-        url: /g11n/movies/HarryPotter/3
+    url: /heestory
 
 #side bar
 review:
