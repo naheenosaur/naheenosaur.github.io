@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "mRemoteNG에서 copy & paste 활성화"
 date:   2019-12-09 21:00:00 +0900
 tags: [mremoteng]

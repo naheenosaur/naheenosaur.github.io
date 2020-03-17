@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "slack webhook 사용하기"
 date:   2020-01-22 21:00:00 +0900
 tags: [commit-every-single-day, slack]

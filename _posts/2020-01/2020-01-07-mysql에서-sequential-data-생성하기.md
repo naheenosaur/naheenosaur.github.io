@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "mysql에서 테이블 없이 연속 데이터 생성하기"
 date:   2020-01-07 21:00:00 +0900
 tags: [mysql]

@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "spring에서 scheduling작업 추가하기"
 date:   2019-09-22 21:00:00 +0900
 tags: [java, spring]

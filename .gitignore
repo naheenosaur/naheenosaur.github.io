@@ -5,3 +5,6 @@ _site
 vendor
 /.idea/
 /Gemfile.lock
+node_modules
+*.iml
+*.lock

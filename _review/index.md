@@ -2,7 +2,6 @@
 title: index
 show_title: false
 permalink: /review/index
-key: index
 --- 
 > 📚 책을 읽으며 알게된 내용이나 구절   
 > 👩‍🏫 강의/세미나/스터디의 노트

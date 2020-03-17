@@ -23,7 +23,7 @@ paginate_path: /page:num # don't change this unless for special need
 comments:
   provider: "disqus"
   disqus:
-    shortname: naheenosaur
+    shortname: divide-and-conquer
 
 ## => Pageview
 #pageview:

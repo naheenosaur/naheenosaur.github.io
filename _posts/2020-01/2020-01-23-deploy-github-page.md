@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "github action에서 github page 배포하기"
 date:   2020-01-23 21:00:00 +0900
 tags: [commit-every-single-day, git-action, github-page]

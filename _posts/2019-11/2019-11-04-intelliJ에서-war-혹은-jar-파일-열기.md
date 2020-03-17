@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "intelliJ에서 war 혹은 jar 파일 열어보기"
 date:   2019-11-04 21:00:00 +0900
 tags: [intellij]

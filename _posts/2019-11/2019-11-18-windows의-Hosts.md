@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "windows에서 Hosts파일 실행"
 date:   2019-11-18 21:00:00 +0900
 tags: [windows]

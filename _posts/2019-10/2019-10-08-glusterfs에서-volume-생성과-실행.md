@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "glusterfs에서 volume 생성과 실행"
 date:   2019-10-08 21:00:00 +0900
 tags: [glusterfs]

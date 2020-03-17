@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "intellij 실행 시 address is already in use"
 date:   2019-11-19 21:00:00 +0900
 tags: [windows]

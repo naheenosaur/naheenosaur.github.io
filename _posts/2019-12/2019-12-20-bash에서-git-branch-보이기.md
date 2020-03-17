@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "bash에서 git branch 표시하기"
 date:   2019-12-20 21:00:00 +0900
 tags: [bash, git]

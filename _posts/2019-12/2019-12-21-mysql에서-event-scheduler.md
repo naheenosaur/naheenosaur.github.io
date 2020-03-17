@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "mysql에서 event scheduler에서 에러가 있다고 나오는 경우"
 date:   2019-12-21 21:00:00 +0900
 tags: [mysql]

@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "Static Class와 Static method"
 date:   2020-02-15 21:00:00 +0900
 tags: [java]

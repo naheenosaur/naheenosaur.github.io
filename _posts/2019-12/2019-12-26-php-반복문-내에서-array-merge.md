@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "반복문 내에서 array 합치기"
 date:   2019-12-26 21:00:00 +0900
 tags: [php]
