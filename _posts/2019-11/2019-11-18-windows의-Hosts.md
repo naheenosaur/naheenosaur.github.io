@@ -2,6 +2,7 @@
 title:  "windows에서 Hosts파일 실행"
 date:   2019-11-18 21:00:00 +0900
 tags: [windows]
+key: 20191118_01
 ---
 ## HOST 파일 편리하게 사용하기
 

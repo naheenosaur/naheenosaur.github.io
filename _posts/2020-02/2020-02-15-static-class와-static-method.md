@@ -2,6 +2,8 @@
 title:  "Static Class와 Static method"
 date:   2020-02-15 21:00:00 +0900
 tags: [java]
+published : false
+key: 20200215_01
 ---
 
 Java(혹은 객체지향 프로그래밍)에서는 주로 static method의 사용을 지양하고 있다.
@@ -50,3 +52,7 @@ static method는 static variable에만 접근할 수 있는데, 이것은 캡슐
 또, static 메모리에 할당되었기 때문에 프로그램이 실행되는 동안 계속 접근이 가능하기 때문에 Util성 클래스가 아닌 일반적인 서비스에는 적합하지 않다는 것이다.
 
 함께 참고해 볼만한 자료 : [Why aren't static methods considered good OO practice?](https://stackoverflow.com/questions/4002201/why-arent-static-methods-considered-good-oo-practice)
+
+## Util class 의 사용
+util성 클래스를 만드는 방법은 static method 를 사용하는 것 이외에도 singleton 형식이 있을 수 있다.
+spring framework 에서 개발한다면 spring 에서 제공해주는 singleton 기반으로 Bean을 등록해서 사용하는 것이 더 좋아 보인다.

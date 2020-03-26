@@ -2,6 +2,7 @@
 title:  "함수형 인터페이스와 @FunctionalInterface"
 date:   2020-03-02 21:00:00 +0900
 tags: [java]
+key: 20200302_01
 ---
 
 ## 함수형 인터페이스

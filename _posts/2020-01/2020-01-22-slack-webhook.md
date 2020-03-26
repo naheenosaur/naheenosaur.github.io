@@ -2,6 +2,7 @@
 title:  "slack webhook 사용하기"
 date:   2020-01-22 21:00:00 +0900
 tags: [commit-every-single-day, slack]
+key: 20200122_01
 ---
 
 서비스 로직에서 나온 결과에 따른 slack message를 전송하기 위해 slack webhook 기능을 이용했다.

@@ -2,6 +2,7 @@
 title:  "mysql에서 procedure 사용"
 date:   2020-01-08 21:00:00 +0900
 tags: [mysql]
+key: 20200108_01
 ---
 
 ## mysql에서 프로시저 생성

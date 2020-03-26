@@ -2,6 +2,7 @@
 title:  "github action에서 github page 배포하기"
 date:   2020-01-23 21:00:00 +0900
 tags: [commit-every-single-day, git-action, github-page]
+key: 20200123_01
 ---
 
 github action에서 실행된 결과를 바탕으로 새로운 github page를 만드는 방법을 알아봤다.  

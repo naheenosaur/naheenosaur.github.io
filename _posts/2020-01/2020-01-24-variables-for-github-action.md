@@ -2,6 +2,7 @@
 title:  "github action에서 input값으로 변수 사용하기"
 date:   2020-01-24 21:00:00 +0900
 tags: [commit-every-single-day, github-action]
+key: 20200124_01
 ---
 ## step에서 input 값으로 변수 사용하기
 
