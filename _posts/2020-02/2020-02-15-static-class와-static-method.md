@@ -2,7 +2,6 @@
 title:  "Static Class와 Static method"
 date:   2020-02-15 21:00:00 +0900
 tags: [java]
-published : false
 key: 20200215_01
 ---
 
@@ -16,12 +15,13 @@ Java(혹은 객체지향 프로그래밍)에서는 주로 static method의 사�
 일반적으로 class는 static 메모리 영역에, 인스턴스는 heap메모리 영역에 할당되게 된다.
 static method와 같이 static 선언을 해 주게 되면 static 메모리 영역에 할당되는데 이 것은 모든 객체가 이 메모리를 공유한다는 것을 의미한다.
 또, static 메모리가 할당 될 때 함께 선언하기 때문에 static 변수만 사용이 가능하다는 것을 의미한다.  
+util 클래스를 사용하고자 할 때는 몇가지 권장하는 사항이 있다.
 
 ### 1. 생성자를 private로 선언해 준다.
 ```java
 class NumberUtil {
     private static final int ZERO = 0;
-    private NumberUtil() {}; // 생성자를 private로 선언
+    private NumberUtil() {}; // 생성자를 private으로 선언
     public static int add(int num1, int num2) {
         return num1 + num2;
     }  
