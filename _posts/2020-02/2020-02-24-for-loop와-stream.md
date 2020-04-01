@@ -1,5 +1,4 @@
 ---
-#layout: post
 title:  "stream과 for문의 사용"
 date:   2020-02-24 21:00:00 +0900
 tags: [java, stream]

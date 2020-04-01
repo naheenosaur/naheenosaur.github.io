@@ -32,6 +32,3 @@ https://api.github.com/users/:username/events 에서 _public repository_ 에 해
     
 github action에서는 cron작업을 추가할 수 있는데, cron에 작성하는 시간은 UTC시간을 사용한다.
 나는 밤 11시에 예약작업을 내고 싶었기 때문에 ( 0 14 * * * ) 에 예약작업을 걸었다.
-
-
-

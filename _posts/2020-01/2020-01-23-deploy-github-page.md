@@ -42,5 +42,3 @@ github page의 주소는 `'이름'.github.io`로 repository 이름을 하지 않
 그래서 jekyll을 사용하지 않겠다고 지정해야하는데, html 파일을 만들어 준 동일한 경로에  
 `touch .nojekyll` 을 이용하여 파일을 생성해 주면 된다.  
 [자세한 내용 보기](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
-
-

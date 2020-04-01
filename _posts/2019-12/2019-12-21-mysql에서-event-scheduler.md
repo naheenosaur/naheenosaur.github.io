@@ -29,4 +29,3 @@ table을 유지 보수하는데 사용하는 클라이언트 프로그램 ( 확�
 - 버전에 상관 없이 dump데이터를 쌓고나면 업스레이드 해주는 것을 권장한다. ( 버전 호환이 안되는 경우가 있기 때문 )
 - mysql_upgrade를 실행하면 mysql_upgrade_info가 생겨서 "이미 업그레이드가 완료되었다." 라고 나오기 때문에  
   mysql_upgrade --force를 사용하던가 muysql_upgrade_info를 삭제하고 재 실행
-    
