@@ -4,7 +4,5 @@
 ## directory structure
 ```
 |--+-- post     -> /post  
-|  +-- review   -> /review/book ..   
-|  +-- G11N     -> /g11n, /g11n/movies ..  
-|--+-- heestory -> /heestory, /heestory/log/home ..  
+|--+-- review   -> /review/book ..   
 ```         

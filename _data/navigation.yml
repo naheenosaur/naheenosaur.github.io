@@ -11,11 +11,12 @@ header:
   - title: algorithm
     url: /algorithm/index
   # g11n
-  - title: G11N
-    url: /g11n
+# 블로그 분리
+#  - title: G11N
+#    url: /g11n
   # heestory
-  - title: heestory
-    url: /heestory
+#  - title: heestory
+#    url: /heestory
 
 #side bar
 review:
