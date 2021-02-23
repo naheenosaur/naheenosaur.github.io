@@ -1,6 +1,6 @@
 ---
 title:  "python의 list comprehension 사용"
-date:   2021-02-22 21:00:00 +0900
+date:   2021-02-22 22:00:00 +0900
 tags: [python]
 key: 20210222_02
 ---
