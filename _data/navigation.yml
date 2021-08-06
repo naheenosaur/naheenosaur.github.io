@@ -34,6 +34,8 @@ review:
         url: /review/study/TDD-Refactoring-CleanCode
       - title: Domain Driven Design 세레나데
         url: /review/study/DDD-세레나데
+  - title: Reference
+    url: /review/reference
 
 #  - title: Seminar
 #    children:
